@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-pedantic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Commitlint config for the pedantic commit convention",
   "main": "index.js",
   "scripts": {
