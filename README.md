@@ -23,7 +23,7 @@ Extend your `commitlint.config.js`:
 ```js
 module.exports = {
   extends: [
-    'commitlint-config-pedantic'
+    'pedantic'
   ]
 };
 ```
