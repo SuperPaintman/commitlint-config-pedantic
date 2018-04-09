@@ -1,0 +1,127 @@
+rules:
+    body-leading-blank:
+        - 2
+        - always
+
+    body-max-length:
+        - 0
+        - always
+
+    body-min-length:
+        - 0
+        - always
+
+    footer-leading-blank:
+        - 2
+        - always
+
+    footer-max-length:
+        - 0
+        - always
+
+    footer-min-length:
+        - 0
+        - always
+
+    header-max-length:
+        - 1
+        - always
+        - 72
+
+    header-min-length:
+        - 2
+        - always
+        - 1
+
+    references-empty:
+        - 2
+        - always
+
+    scope-enum:
+        - 0
+        - always
+
+    scope-case:
+        - 2
+        - always
+        - lower-case
+
+    scope-empty:
+        - 2
+        - never
+
+    scope-max-length:
+        - 0
+        - always
+
+    scope-min-length:
+        - 0
+        - always
+
+    subject-case:
+        - 2
+        - never
+        -
+            - upper-case
+            - pascal-case
+            - sentence-case
+            - start-case
+
+    subject-empty:
+        - 2
+        - never
+
+    subject-full-stop:
+        - 2
+        - never
+        - "."
+
+    subject-max-length:
+        - 0
+        - always
+
+    subject-min-length:
+        - 0
+        - always
+
+    type-enum:
+        - 2
+        - always
+        -
+            # A new feature
+            - feat
+            # A bug fix
+            - fix
+            # Documentation only changes
+            - docs
+            # Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+            - style
+            # A code change that neither fixes a bug nor adds a feature
+            - refactor
+            # A code change that improves performance
+            - perf
+            # Adding missing or correcting existing tests
+            - test
+            # Changes to the build process or auxiliary tools and libraries such as documentation generation
+            - chore
+
+    type-case:
+        - 2
+        - always
+        - kebab-case
+
+    type-empty:
+        - 2
+        - never
+
+    type-max-length:
+        - 0
+        - always
+
+    type-min-length:
+        - 0
+        - always
+
+    signed-off-by:
+        - 0
+        - always
